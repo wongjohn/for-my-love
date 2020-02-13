@@ -87,7 +87,7 @@
                 const content = getRandomMsg(message);
                 const length = content.replace(/<[^>]+>/g,"").length;
                 const isImg = /<img[^>]+>/.test(content);
-                const isTyping = length > 5 || isImg;
+                const isTyping = length > 2 || isImg;
 
                 const msg = {
                     author: author,

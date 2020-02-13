@@ -94,7 +94,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
                 var content = getRandomMsg(message);
                 var length = content.replace(/<[^>]+>/g, "").length;
                 var isImg = /<img[^>]+>/.test(content);
-                var isTyping = length > 5 || isImg;
+                var isTyping = length > 2 || isImg;
 
                 var msg = {
                     author: author,

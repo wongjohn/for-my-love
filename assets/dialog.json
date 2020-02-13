@@ -3,27 +3,38 @@
         "id": "0000",
         "details": [
             [
-                "永远跟你在一起",
+                "🌷情人节快乐🌷",
+                "我的宝贝😘",
+                "🍀🍀🍀🌹🍀🍀🍀🌹🍀🍀🍀🍀🍀🌹🌹🌹🍀🌹🌹🌹🍀🍀🍀🌹🌹🌹🌹🌹🌹🌹🌹🌹🍀🍀🌹🌹🌹🌹🌹🌹🌹🌹🌹🍀🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🍀🌹🌹🌹🌹🌹🌹🌹🌹🌹🍀🍀🍀🌹🌹🌹🌹🌹🌹🌹🍀🍀🍀🍀🍀🌹🌹🌹🌹🌹🍀🍀🍀🍀🍀🍀🍀🍀🌹🍀🍀🍀🍀🍀",
+                "几日不见💏",
+                "十分想念💏",
+                "<img src='img/love-the-girl.jpeg'>",
+                "你说你讨厌异地恋🙄",
+                "一场全国性的新肺炎😷",
+                "<img src='img/news-wuhanfeiyan.jpg'>",
+                "让咱们不得不来一场异地恋😂",
+                "<img src='img/separate.jpeg'>",
+                "让我再看一眼你的照片😍",
+                "<img src='img/in-sichuan.jpeg'>",
+                "跟你在一起的每一天，你都让我感到惊艳",
+                "相同的话，我想再听一遍😍",
                 "<img src='img/marry-me.png'>",
-                "嫁给我可以吗？"
+                "嫁给我可以吗？💍"
             ]
         ],
         "responses": [{
             "content": "我愿意",
             "nextAuthor": ["0001"]
-        }, {
-            "content": "我再考虑一下",
-            "nextAuthor": ["0002"]
         }]
     }, {
         "id": "0001",
         "details": [
-            ["<img src='img/kiss-my-princess.png'>", "好开心呀，宝贝，你永远是我心目中的小公主！"]
-        ]
-    }, {
-        "id": "0002",
-        "details": [
-            ["<img src='img/kiss-my-princess.png'>", "我会努力得到你的认可的，宝贝，你永远是我心目中的小公主！"]
+            [
+                "<img src='img/kiss-my-princess.png'>",
+                "好开心呀，我的宝贝😁",
+                "以后每一天的相见😍",
+                "你都是我的初恋😘"
+            ]
         ]
     }],
     "fromUser": []
