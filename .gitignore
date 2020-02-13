@@ -1,0 +1,5 @@
+node_modules
+_res/ignore/
+.DS_Store
+dist/dist
+.idea/

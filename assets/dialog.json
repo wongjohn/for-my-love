@@ -1,0 +1,30 @@
+{
+    "fromMe": [{
+        "id": "0000",
+        "details": [
+            [
+                "永远跟你在一起",
+                "<img src='img/marry-me.png'>",
+                "嫁给我可以吗？"
+            ]
+        ],
+        "responses": [{
+            "content": "我愿意",
+            "nextAuthor": ["0001"]
+        }, {
+            "content": "我再考虑一下",
+            "nextAuthor": ["0002"]
+        }]
+    }, {
+        "id": "0001",
+        "details": [
+            ["<img src='img/kiss-my-princess.png'>", "好开心呀，宝贝，你永远是我心目中的小公主！"]
+        ]
+    }, {
+        "id": "0002",
+        "details": [
+            ["<img src='img/kiss-my-princess.png'>", "我会努力得到你的认可的，宝贝，你永远是我心目中的小公主！"]
+        ]
+    }],
+    "fromUser": []
+}
