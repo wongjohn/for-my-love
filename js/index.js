@@ -59,6 +59,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
                 "稍等一下🙂",
                 "让我再看一眼你的照片😘",
                 "<img src='img/in-taiyuan.jpg'>",
+                "太好看了",
+                "-----------",
                 "跟你在一起的每一天📅",
                 "都让我感到十分快乐📬",
                 "想和你一起做饭🍲",
@@ -70,7 +72,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
                 "时刻期待着与你赴约！！！",
                 "\"W\" & \"H\", \"Warm\" 和 \"Happy\"",
                 "这两个单词恰恰就是爱情该有的样子",
-                "今天是情人节, 祝愿咱俩的爱情永恒, 快乐永远. 爱你, 文慧"
+                "今天是情人节, 祝愿咱俩的爱情永恒, 快乐永远. ",
+                "我爱你, 文慧❤️❤️"
             ]
         ],
         "responses": [{
