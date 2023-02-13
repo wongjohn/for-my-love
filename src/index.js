@@ -33,7 +33,7 @@
         },
 
         mounted() {
-            $.getJSON('./assets/dialog.json', data => {
+            $.getJSON('https://whiwh.oss-cn-shanghai.aliyuncs.com/dialog.json', data => {
                 this.dialogs = data;
 
                 this.nextTopics = this.dialogs.fromUser;

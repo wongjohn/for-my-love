@@ -37,7 +37,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
         mounted: function mounted() {
             var _this = this;
 
-            $.getJSON('./assets/dialog.json', function (data) {
+            $.getJSON('https://whiwh.oss-cn-shanghai.aliyuncs.com/dialoghttps://whiwh.oss-cn-shanghai.aliyuncs.com/dialog.json', function (data) {
                 _this.dialogs = data;
 
                 _this.nextTopics = _this.dialogs.fromUser;
