@@ -36,14 +36,61 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
         mounted: function mounted() {
             var _this = this;
+                const data = {
+    "fromMe": [{
+        "id": "0000",
+        "details": [
+            [
+                "💐💐💐情人节快乐💐💐💐",
+                "我的宝贝😘",
+                "🌹🌹🌹送你花花🌹🌹🌹",
+                "<pre>🍀🍀🍀🌹🍀🍀🍀🌹🍀🍀🍀 \n🍀🍀🌹🌹🌹🍀🌹🌹🌹🍀🍀 \n🍀🌹🌹🌹🌹🌹🌹🌹🌹🌹🍀 \n🍀🌹🌹🌹🌹🌹🌹🌹🌹🌹🍀 \n🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹 \n🍀🌹🌹🌹🌹🌹🌹🌹🌹🌹🍀 \n🍀🍀🌹🌹🌹🌹🌹🌹🌹🍀🍀 \n🍀🍀🍀🌹🌹🌹🌹🌹🍀🍀🍀 \n🍀🍀🍀🍀🍀🌹🍀🍀🍀🍀🍀</pre>",
+                "几日不见📅",
+                "十分想念😘",
+                "谢谢宝贝送我的情人节礼物",
+                "爱死我了",
+                "<img src='img/gift.jpg'>",
+                "你说你讨厌异地恋🤔",
+                "但是命运使然，我们还是选择坚持这段时间😘",
+                "<img src='img/separate.jpeg'>",
+                "稍等一下🙂",
+                "让我再看一眼你的照片😘",
+                "<img src='img/in-taiyuan.jpg'>",
+                "跟你在一起的每一天📅",
+                "都让我感到十分快乐📬",
+                "想和你一起做饭🍲",
+                "想和你一起学习📖",
+                "想和你一起锻炼🛹",
+                "想和你你一起去旅游🚂",
+                "<img src='img/travel.webp'>",
+                "我会将玫瑰藏于身后",
+                "时刻期待着与你赴约！！！",
+            ]
+        ],
+        "responses": [{
+            "content": "我喜欢你",
+            "nextAuthor": ["0001"]
+        }]
+    }, {
+        "id": "0001",
+        "details": [
+            [
+                "<img src='img/kiss-my-princess.png'>",
+                "宝贝我好开心呀😁",
+                "我也超级喜欢你",
+                "遇见你真的是我的幸运😘",
+            ]
+        ]
+    }],
+    "fromUser": []
+}
 
-            $.getJSON('https://whiwh.oss-cn-shanghai.aliyuncs.com/dialoghttps://whiwh.oss-cn-shanghai.aliyuncs.com/dialog.json', function (data) {
                 _this.dialogs = data;
 
                 _this.nextTopics = _this.dialogs.fromUser;
 
                 _this.appendDialog('0000');
-            });
+
         },
 
 
