@@ -1,3 +1,3 @@
-# 送给女朋友的情人节礼物
+# 送给文慧的情人节礼物
 
-情人节 🌹，给女朋友的[情书](https://wongjohn.github.io/for-my-love) 💌
+情人节 🌹，给文慧的[情书](https://flowerbling.github.io/for-my-love) 💌
