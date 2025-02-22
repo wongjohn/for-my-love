@@ -21,7 +21,7 @@
     <body>
         <div id="mobile" :class="{ 'has-prompt': hasPrompt }">
             <div id="mobile-head">
-                <div id="mobile-head-title">与江叔叔聊天中</div>
+                <div id="mobile-head-title">与小江聊天中</div>
             </div>
             <div id="mobile-body">
                 <div id="mobile-body-bg"></div>
@@ -67,7 +67,7 @@
                     v-on:click="togglePrompt(true)"
                     :class="{'clickable': !isTyping }">
                     <span v-if="!isTyping">我想说……</span>
-                    <span v-if="isTyping">江叔叔正在输入中</span>
+                    <span v-if="isTyping">小江正在输入中</span>
                 </div>
             </div>
             <div id="prompt-bg" v-on:click="togglePrompt(false)"></div>
@@ -75,7 +75,7 @@
 
         <div class="extra-link" id="meta-link">
             <a class="letters" href="https://github.com/wongjohn/for-my-love" target="_blank">
-                源码
+            
             </a>
         </div>
 
